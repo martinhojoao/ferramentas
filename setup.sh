@@ -45,8 +45,8 @@ remover_pacotes=(
 )
 
 repositorios=(
-	"https://gitlab.com/joamartinho/ferramentas.git|/home/joao/Área de trabalho/Ferramentas"
-	"https://gitlab.com/joamartinho/joamartinho.gitlab.io.git|/home/joao/Área de trabalho/Página pessoal"
+	"https://github.com/martinhojoao/ferramentas.git|/home/joao/Área de trabalho/Ferramentas"
+	"https://github.com/martinhojoao/martinhojoao.github.io.git|/home/joao/Área de trabalho/Página pessoal"
 )
 
 backup_itens=(
