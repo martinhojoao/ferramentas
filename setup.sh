@@ -62,6 +62,7 @@ backup_itens=(
 )
 
 comandos_avulsos=(
+	"printf 'n\ny\n/home/joao/.sv\n' | /home/joao/Documentos/sv.sh"
 	"sudo rm /home/joao/.face"
 	"sudo rm /home/joao/.face.icon"
 )
