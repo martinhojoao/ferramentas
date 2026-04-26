@@ -22,6 +22,7 @@ alias vincular='git init && git remote add origin'
 # Scripts
 alias ajustar='bash /home/joao/"Área de trabalho"/Ferramentas/ajustar.sh'
 alias contar='bash /home/joao/"Área de trabalho"/Ferramentas/contar.sh'
+alias converter='bash /home/joao/"Área de trabalho"/Ferramentas/converter.sh'
 alias despir='bash /home/joao/"Área de trabalho"/Ferramentas/despir.sh'
 alias extrair='bash /home/joao/"Área de trabalho"/Ferramentas/extrair.sh'
 alias formatar='bash /home/joao/"Área de trabalho"/Ferramentas/formatar.sh'
