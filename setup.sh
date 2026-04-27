@@ -62,8 +62,8 @@ backup_itens=(
 )
 
 comandos_avulsos=(
-	# "printf 'n\n\ny\n/home/joao/.sv\n1\n\n' | /home/joao/Documentos/sv.sh"
-	# "printf 'n\n\ny\n/home/joao/.gf\n1\n\n' | /home/joao/Documentos/gf.sh"
+	# "printf 'n\n\ny\n/home/joao/.sv\n1\n\n' | /media/joao/Backup/Scripts/sv.sh"
+	# "printf 'n\n\ny\n/home/joao/.gf\n1\n\n' | /media/joao/Backup/Scripts/gf.sh"
 	"sudo rm /home/joao/.face"
 	"sudo rm /home/joao/.face.icon"
 )
