@@ -12,8 +12,11 @@ ORIGENS=(
 
 for ORIGEM in "${ORIGENS[@]}"; do
     if [ -d "$ORIGEM" ]; then
-        rsync -a --update --human-readable --progress \
-              "$ORIGEM" "$DESTINO"
+        NOME="$(basename "$ORIGEM")"
+
+        rsync -a --update --delete \
+              --human-readable --progress \
+              "$ORIGEM/" "$DESTINO/$NOME/"
     else
         echo "Aviso: origem não encontrada, ignorando: $ORIGEM" >&2
     fi
