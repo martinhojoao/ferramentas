@@ -16,6 +16,7 @@ alias fetch='git fetch'
 alias publicar='git add . && git commit -m "$(date +%F)" && git switch --create main && git push --set-upstream origin main'
 alias pull='git pull'
 alias push='git push'
+alias restaurar='git restore --source'
 alias revincular='git remote set-url origin'
 alias vincular='git init && git remote add origin'
 

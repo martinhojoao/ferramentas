@@ -10,7 +10,6 @@ while IFS= read -r -d $'\0' f; do
 
 		cmd=(mkvmerge -o "$tmp" \
 			--title "" \
-			--no-subtitles \
 			--no-chapters \
 			--no-track-tags \
 			--no-global-tags)
@@ -41,6 +40,7 @@ while IFS= read -r -d $'\0' f; do
 			-i "$f" \
 			-map 0:v \
 			-map 0:a:0 \
+			-map 0:s? \
 			-c copy \
 			-map_metadata -1 \
 			-map_chapters -1 \
