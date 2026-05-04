@@ -10,6 +10,7 @@ instalar_pacotes=(
 	fastfetch
 	ffmpeg
 	fortune
+	ghostwriter
 	git
 	imagemagick
 	kcolorchooser

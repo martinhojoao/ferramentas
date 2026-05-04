@@ -19,6 +19,7 @@ alias push='git push'
 alias restaurar='git restore --source'
 alias revincular='git remote set-url origin'
 alias vincular='git init && git remote add origin'
+alias voltar='git reset --hard HEAD^'
 
 # Scripts
 alias ajustar='bash /home/joao/"Área de trabalho"/Ferramentas/ajustar.sh'
